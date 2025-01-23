@@ -1,6 +1,6 @@
 # Dotfiles
 
-Dotfiles to get you up-and-running a whole lot faster. 🚀
+Dotfiles to get you up and running a whole lot faster. 🚀
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Dotfiles to get you up-and-running a whole lot faster. 🚀
 Use `chezmoi` to initate a new machine.
 
 ```bash
-$ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply CapiMoney/dotfiles
+$ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply git@github.com:CapiMoney/dotfiles.git
 ```
 
 See [chezmoi](https://chezmoi.io/) documentation for further instructions.
