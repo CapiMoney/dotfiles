@@ -6,3 +6,7 @@ cask '1password'
 cask '1password-cli'
 cask 'notion'
 cask 'visual-studio-code'
+
+if File.exist?(".Brewfile.local")
+  instance_eval(File.read(".Brewfile.local"))
+end
